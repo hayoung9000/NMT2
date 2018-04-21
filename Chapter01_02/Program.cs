@@ -18,7 +18,7 @@ namespace Chapter01_02
             Console.WriteLine("{0:D8}", a); //D자릿수, 0으로 채운다
             Console.WriteLine("{0}", b);
 
-            //Console.WriteLine("{0}", 1234567 * 1234567);// L
+            //Console.WriteLine("{0}", 1234567 * 1234567);// L이 있어야 오버플로우 안됨
             Console.WriteLine("{0}", 1234567L * 1234567L);//ctr+k+u = 주석 없앰
 
             Console.WriteLine("----------------------------");
